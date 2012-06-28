@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="LoginMainContainer">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:padding">20dp</item>
+    </style>
+    <style name="LoginInnerContainer">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+    <style name="LargeLoginButton">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+    <style name="SmallLoginButton">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:layout_weight">50</item>
+    </style>
+    <style name="LargeLoginEditText">
+        <item name="android:maxLines">1</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+    <style name="SmallLoginText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>

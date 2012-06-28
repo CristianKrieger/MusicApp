@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">CompoundTime</string>
+    <string name="login_or">or</string>
+    <string name="login_email">E-mail</string>
+    <string name="login_password">Password</string>
+    <string name="login_fb">Sign in with Facebook</string>
+    <string name="login_signup">Sign Up</string>
+    <string name="login_login">Login</string>
+    <string name="login_forgot">Forgot password?</string>
+</resources>
