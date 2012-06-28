@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    
+    <!-- STYLES FOR LOGIN SCREEN -->
+    
     <style name="LoginMainContainer">
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">fill_parent</item>
@@ -33,5 +36,24 @@
     <style name="SmallLoginText">
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>
+    </style>
+    
+    <!-- STYLES FOR SIGN UP SCREEN -->
+    
+    <style name="LargeSignUpEditText">
+        <item name="android:maxLines">1</item>
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+    <style name="SignUpSpinner">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+    <style name="SignUpText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">15dp</item>
     </style>
 </resources>

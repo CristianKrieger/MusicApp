@@ -1,13 +1,14 @@
 package com.ludittetechnology.compoundtime;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
 import android.widget.Toast;
 
 public class Login extends Activity {
-    /** Called when the activity is first created. */
+	
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,7 +28,9 @@ public class Login extends Activity {
     }
     
     public void signUp(View v){
-    	Toast.makeText(getApplicationContext(), "Sign Up", Toast.LENGTH_SHORT).show();
+//    	Toast.makeText(getApplicationContext(), "Sign Up", Toast.LENGTH_SHORT).show();
+    	Intent i = new Intent(this, SignUp.class);
+    	startActivity(i);
     }
     
     public void forgotPassword(View v){
