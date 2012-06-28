@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LoginMainContainer">
+    <LinearLayout style="@style/LoginInnerContainer">
+        <TextView style="@style/SignUpText"
+            android:gravity="center"
+            android:text="@string/signup_welcome"
+            android:layout_marginBottom="25dp"/>
+        <EditText style="@style/LargeLoginEditText"
+            android:hint="@string/signup_name"
+            android:id="@+id/ed_signup_name"/>
+        <EditText style="@style/LargeSignUpEditText"
+            android:hint="@string/signup_email"
+            android:id="@+id/ed_signup_email"/>
+        <EditText style="@style/LargeSignUpEditText"
+            android:hint="@string/signup_password"
+            android:id="@+id/ed_signup_password"
+            android:inputType="textPassword"/>
+        <EditText style="@style/LargeSignUpEditText"
+            android:hint="@string/signup_confirmpassword"
+            android:id="@+id/ed_signup_confirmpassword"
+            android:inputType="textPassword"/>
+        <Spinner style="@style/SignUpSpinner"
+            android:id="@+id/spn_signup_instrument"/>
+        <Button style="@style/LargeLoginButton"
+            android:text="@string/login_signup"
+            android:id="@+id/btn_signup_signup"/>
+    </LinearLayout>
+</RelativeLayout>
